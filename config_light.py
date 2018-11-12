@@ -155,7 +155,8 @@ def configure(keymap):
     not_clipboard_target = ["EXCEL.EXE"]          # Excel
 
     # 日本語キーボードかどうかを指定する（True: 日本語キーボード、False: 英語キーボード）
-    is_japanese_keyboard = True
+    # is_japanese_keyboard = True
+    is_japanese_keyboard = False
 
     # 左右どちらの Ctrlキーを使うかを指定する（"L": 左、"R": 右）
     side_of_ctrl_key = "L"

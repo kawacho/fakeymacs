@@ -151,6 +151,10 @@ def configure(keymap):
                             "ttermpro.exe",       # TeraTerm
                             "MobaXterm.exe"]      # MobaXterm
 
+    # VS Code は VS Code の拡張で Emacs キーバインドにするので除外
+    not_emacs_target.append("Code.exe")
+    ime_target.append("Code.exe")
+
     # clipboard 監視の対象外とするアプリケーションソフトを指定する
     not_clipboard_target = ["EXCEL.EXE"]          # Excel
 
